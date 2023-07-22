@@ -42,6 +42,11 @@ public class LoginPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
+	@Test(priority=4)
+	public void loginTest1(){
+		//homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		System.out.println("Feature branch test");
+	}
 	
 	
 	@AfterClass
